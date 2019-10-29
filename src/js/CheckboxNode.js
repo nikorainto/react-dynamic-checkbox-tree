@@ -23,6 +23,7 @@ const ArrowIcon = rotation => (
 )
 
 const CheckboxTree = ({
+  id,
   label,
   depth,
   checked,
@@ -97,6 +98,7 @@ const CheckboxTree = ({
         )}
       </span>
       <input
+        id={id}
         type="checkbox"
         className={classNameCheckbox}
         checked={checked}
@@ -105,6 +107,7 @@ const CheckboxTree = ({
         ref={el => el && (el.indeterminate = indeterminate())}
       />
       <label
+        htmlFor={id}
         style={
           hasChildren
             ? styleParentLabel || styles.ParentLabel

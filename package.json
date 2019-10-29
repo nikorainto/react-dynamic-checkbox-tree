@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-checkbox-tree",
-  "version": "1.0.2-beta",
+  "version": "1.0.3-beta",
   "description": "My implementation of a checkbox tree",
   "author": "Niko Rudnäs",
   "license": "MIT",

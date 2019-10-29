@@ -9,4 +9,12 @@ describe('react-dynamic-checkbox-tree', function() {
     cy.get('label').should('have.length', 4)
     cy.get('svg').should('have.length', 3)
   })
+
+  it('can check the four checkboxes', function() {
+    cy.fixture('data').then(nodes => {
+      nodes.forEach(node => {
+        cy.get(`#${node.id}`).check()
+      })
+    })
+  })
 })

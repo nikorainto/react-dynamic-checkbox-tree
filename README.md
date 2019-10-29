@@ -139,9 +139,3 @@ export default class MyComponent extends React.Component {
 | `styleParentLabel`        | `object`   | Optional. `style` for a parent label.                                                                                                                                                       |
 | `styleCheckbox`           | `object`   | Optional. `style` for a checkbox.                                                                                                                                                           |
 | `styleCheckboxIcon`       | `object`   | Optional. `style` for a checkbox icon.                                                                                                                                                      |
-
-## TODO
-
-- Write tests (cypress?) Runner: circleci / travis
-- Verify that netlify 'rebuild on commit' works
-- Room for performance boosting

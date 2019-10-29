@@ -63,6 +63,7 @@ class CheckboxTree extends React.Component {
           <CheckboxNode
             {...this.props}
             key={node.id}
+            id={node.id}
             label={node.label}
             depth={node.depth}
             checked={node.checked}
