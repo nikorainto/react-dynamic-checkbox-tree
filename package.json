@@ -1,0 +1,63 @@
+{
+  "name": "react-dynamic-checkbox-tree",
+  "version": "1.0.2-beta",
+  "description": "My implementation of a checkbox tree",
+  "author": "Niko Rudnäs",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "ci:start-server": "http-server development/build/ -s -p 8888",
+    "test": "start-server-and-test ci:start-server http-get://localhost:8888 cy:run",
+    "lint": "eslint src/*/*.js",
+    "build": "babel src --out-dir dist",
+    "ci:build": "npm install && npm run lint && npm run build && cd development && npm install && npm run build",
+    "dev": "babel src --out-dir dist -w",
+    "prepublishOnly": "npm run build",
+    "netlify": "npm install && npm run build && cd development && npm install && npm run build"
+  },
+  "keywords": [
+    "react",
+    "checkbox",
+    "tree",
+    "nested"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikorudnas/react-dynamic-checkbox-tree"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@types/react": "^16.9.9",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-minify": "^0.5.1",
+    "cypress": "^3.5.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0",
+    "http-server": "^0.11.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "start-server-and-test": "^1.10.6"
+  }
+}

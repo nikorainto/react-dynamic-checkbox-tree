@@ -1,0 +1,17 @@
+{
+  // Place your settings in this file to overwrite default and user settings.
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 12,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": false,
+  "eslint.workingDirectories": ["./www", "./api"],
+  "prettier.jsxBracketSameLine": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.ignorePath": ".prettierignore",
+  "javascript.implicitProjectConfig.checkJs": true
+}
