@@ -1,10 +1,10 @@
 # react-dynamic-checkbox-tree
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cfa15899-cb40-490d-bf99-87599e851fc3/deploy-status)](https://app.netlify.com/sites/modest-varahamihira-1caac8/deploys)
-[![CircleCI](https://circleci.com/gh/nikorudnas/react-dynamic-checkbox-tree.svg?style=svg)](https://circleci.com/gh/nikorudnas/react-dynamic-checkbox-tree)
+[![CircleCI](https://circleci.com/gh/nikorainto/react-dynamic-checkbox-tree.svg?style=svg)](https://circleci.com/gh/nikorainto/react-dynamic-checkbox-tree)
 [![npm](https://img.shields.io/npm/v/react-dynamic-checkbox-tree.svg?style=flat-square)](https://www.npmjs.com/package/react-dynamic-checkbox-tree)
-[![Dependency Status](https://img.shields.io/david/nikorudnas/react-dynamic-checkbox-tree.svg?style=flat-square)](https://david-dm.org/nikorudnas/react-dynamic-checkbox-tree)
-[![devDependency Status](https://david-dm.org/nikorudnas/react-dynamic-checkbox-tree/dev-status.svg?style=flat-square)](https://david-dm.org/nikorudnas/react-dynamic-checkbox-tree?type=dev)
+[![Dependency Status](https://img.shields.io/david/nikorainto/react-dynamic-checkbox-tree.svg?style=flat-square)](https://david-dm.org/nikorainto/react-dynamic-checkbox-tree)
+[![devDependency Status](https://david-dm.org/nikorainto/react-dynamic-checkbox-tree/dev-status.svg?style=flat-square)](https://david-dm.org/nikorainto/react-dynamic-checkbox-tree?type=dev)
 
 Demo: https://modest-varahamihira-1caac8.netlify.com/
 
@@ -113,7 +113,7 @@ export default class MyComponent extends React.Component {
       <CheckboxTree
         nodes={exampleData}
         checked={this.state.checked}
-        onCheck={checked => this.setState({ checked })}
+        onCheck={(checked) => this.setState({ checked })}
       />
     )
   }
