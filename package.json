@@ -41,23 +41,23 @@
     "not op_mini all"
   ],
   "peerDependencies": {
-    "react": "^15.0.0 || ^16.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
-    "@types/react": "^16.9.9",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@types/react": "^17.0.3",
     "babel-eslint": "^10.0.3",
     "babel-preset-minify": "^0.5.1",
-    "cypress": "^3.5.0",
-    "eslint": "^6.5.1",
-    "eslint-plugin-react": "^7.16.0",
-    "http-server": "^0.11.1",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "start-server-and-test": "^1.10.6"
+    "cypress": "^6.8.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.1",
+    "http-server": "^0.12.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "start-server-and-test": "^1.12.1"
   }
 }
